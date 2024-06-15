@@ -1,4 +1,4 @@
-# Project Name
+# Bulma! 
 
 Welcome to the project! This project utilizes the **Bulma CSS framework** to style its components and pages. 
 
