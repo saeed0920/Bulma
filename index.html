@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>New FreameWork in css And with NEOVIM!</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./build/main.css" />
   </head>
   <body>
-  <section class="section">
-    <h1 class="title">Hello Im Saeed!</h1>
-   <p class="subtitle">A nice Developer to learn Everything</p> 
-  </section>
+    <section class="section" >
+      <h1 class="title">Hello Im Saeed!</h1>
+      <p class="subtitle">A nice Developer to learn Everything</p>
+      <section class="section desktop-only">
+        <h3 class="title is-info">This is Btns</h3>
+        <button class="button is-loading is-large is-primary-tablet" type="button">Click me!</button>
+        <button class="button is-primary is-small-desktop" disabled>Button</button>
+        <button class="button is-text">Button</button>
+        <button class="button is-info">Button</button>
+        <button class="button is-success">Button</button>
+          </section>
+          <section data-theme="dark" class="section">
+        <button class="button is-warning">Button</button>
+          </section>
+          <section class="theme-light">
+            Hi Im LightMode
+        <button class="button is-danger">Button</button>
+        <div class="skeleton-block"></div>
+          </section>
+    </section>
     <script src="./index.js"></script>
   </body>
 </html>

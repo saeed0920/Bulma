@@ -1,5 +1,17 @@
 {
   "dependencies": {
+    "bulma": "^1.0.1",
     "live-server": "^1.2.2"
-  }
+  },
+  "name": "bluma",
+  "version": "1.0.0",
+  "description": "just learning bluma with nvim",
+  "main": "index.js",
+  "scripts": {
+    "test": "live-server",
+    "live" : "live-server" ,
+    "sass": "sass --watch ./main.scss ./build/main.css"
+  },
+  "author": "Saeed",
+  "license": "ISC"
 }
